@@ -1,0 +1,15 @@
+# --- Framework LLM / RAG ---
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+langchain-text-splitters
+
+# --- Vector store ---
+faiss-cpu>=1.8.0
+
+# --- Procesamiento de PDFs ---
+pypdf>=4.0.0
+
+# --- Valida datos ---
+pydantic>=2.0.0

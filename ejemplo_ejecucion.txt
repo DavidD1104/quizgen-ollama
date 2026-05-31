@@ -1,0 +1,98 @@
+PS C:\Users\Usuario\Desktop\Uni\Cuarto Segundo Cuatri\IA\IA_Generativa\ProyectoOllama\ProyectoOllama> python quizgen.py
+C:\Users\Usuario\Desktop\Uni\Cuarto Segundo Cuatri\IA\IA_Generativa\ProyectoOllama\ProyectoOllama\quizgen.py:23: DeprecationWarning: `langchain-community` is being sunset and is no longer actively maintained. See https://github.com/langchain-ai/langchain-community/issues/674 for details and migration guidance toward standalone integration packages.
+  from langchain_community.document_loaders import PyPDFLoader
+[*] Indexando PDFs de 'Documentacion RAG Preguntas'...
+    - Tema_3_Fundamentos_del_Aprendizaje_Automático.pdf
+    - Tema_4_Aprendizaje_No_Supervisado_y_Reducción_Características.pdf
+    - Tema_5_Shallow_Neural_Networks.pdf
+    - Tema_6_Redes_Recurrentes_y_NLP.pdf
+    - Tema_7_Redes_Neuronales_Convolucionales.pdf
+[*] Generando embeddings para 376 fragmentos...
+[*] Índice guardado.
+
+[*] Generando 5 preguntas con llama3.1...
+    Pregunta 1/5 generada.
+    Pregunta 2/5 generada.
+    Pregunta 3/5 generada.
+    Pregunta 4/5 generada.
+    Pregunta 5/5 generada.
+
+==================================================
+  QUIZ - 5 preguntas
+==================================================
+
+--- Pregunta 1/5 ---
+
+¿Por qué los resultados pueden variar entre distintos métodos o dentro del mismo método en un algoritmo?      
+
+  A) Debido a la naturaleza estocástica del algoritmo o el procedimiento de evaluación, o diferencias en precisión numérica.
+  B) Porque los resultados dependen directamente del tamaño del conjunto de datos
+  C) Porque no se ha ejecutado suficientemente el ejemplo
+  D) Porque hay varias formas de llegar a la misma solución final
+
+Tu respuesta (A/B/C/D): A
+
+CORRECTO!
+Explicación: Los resultados pueden variar debido a la naturaleza estocástica del algoritmo o el procedimiento de evaluación, o diferencias en precisión numérica.
+
+--- Pregunta 2/5 ---
+
+¿Cuál es el objetivo principal del aprendizaje no supervisado?
+
+  A) Predecir categorías de futuros ejemplos
+  B) Encontrar patrones en datos sin etiquetas o respuestas predefinidas
+  C) Mejorar la programación dinámica para problemas complejos
+  D) Aplicar aprendizaje multi-tarea a nuevos problemas
+
+Tu respuesta (A/B/C/D): B
+
+CORRECTO!
+Explicación: El aprendizaje no supervisado busca encontrar patrones y relaciones en datos sin etiquetas o respuestas predefinidas, lo que permite descubrir estructuras ocultas y distribuciones subyacentes.
+
+--- Pregunta 3/5 ---
+
+¿Por qué es necesario estandarizar la covarianza para comparar el grado de asociación entre pares de variables en distintas escalas?
+
+  A) Para evitar que los valores grandes de una variable afecten la covarianza
+  B) Para poder utilizar la covarianza para comparar el grado de asociación entre pares de variables en distintas escalas
+  C) Porque la covarianza es un parámetro que siempre se mide en la misma escala
+  D) Para poder calcular la correlación entre las variables
+
+Tu respuesta (A/B/C/D): D
+
+INCORRECTO. La respuesta era: B) Para poder utilizar la covarianza para comparar el grado de asociación entre pares de variables en distintas escalas
+Explicación: La respuesta correcta es B porque la covarianza depende de las escalas en que se miden las variables estudiadas, por lo que no puede utilizarse para comparar el grado de asociación entre pares de variables en distintas escalas.
+
+--- Pregunta 4/5 ---
+
+¿Cuál es la causa principal por la que los resultados pueden variar entre distintos métodos e incluso dentro del mismo método en la eliminación recursiva de características?
+
+  A) Diferencias en la precisión numérica
+  B) Naturaleza estocástica del algoritmo o procedimiento de evaluación
+  C) Diseño inadecuado del modelo
+  D) Falta de datos de entrenamiento
+
+Tu respuesta (A/B/C/D): B
+
+CORRECTO!
+Explicación: La respuesta correcta es B porque la naturaleza estocástica del algoritmo o procedimiento de evaluación puede causar variaciones en los resultados.
+
+--- Pregunta 5/5 ---
+
+¿Qué arquitectura utiliza un modelo como GPT?
+
+  A) Arquitectura utilizando Convolutional Neural Networks (CNN)
+  B) Arquitectura utilizando Transformers y mecanismos de atención
+  C) Arquitectura utilizando Recurrent Neural Networks (RNN)
+  D) Arquitectura utilizando Autoencoders
+
+Tu respuesta (A/B/C/D): B
+
+CORRECTO!
+Explicación: GPT utiliza una arquitectura que combina Transformers y mecanismos de atención para mejorar su capacidad de procesar y generar texto.
+
+==================================================
+  RESULTADO: 4/5 (80%)
+  Buen resultado.
+==================================================
+PS C:\Users\Usuario\Desktop\Uni\Cuarto Segundo Cuatri\IA\IA_Generativa\ProyectoOllama\ProyectoOllama> 
