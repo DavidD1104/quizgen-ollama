@@ -13,3 +13,6 @@ pypdf>=4.0.0
 
 # --- Valida datos ---
 pydantic>=2.0.0
+
+# --- Interfaz web (quizgen_web.py) ---
+streamlit
