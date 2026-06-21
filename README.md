@@ -98,9 +98,7 @@ Además de la versión en terminal, QuizGen incluye una interfaz web interactiva
 python -m streamlit run quizgen_web.py
 ```
 
-![Configuración](docs/web_configurar.png)
 ![Quiz](docs/web_quiz.png)
-![Mapa de preguntas](docs/web_mapa.png)
 ![Resultados](docs/web_resultados.png)
 
 ## Cómo funciona
