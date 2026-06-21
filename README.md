@@ -90,6 +90,19 @@ en datos sin etiquetas o respuestas predefinidas.
 ==================================================
 ```
 
+## Versión Web (Streamlit)
+
+Además de la versión en terminal, QuizGen incluye una interfaz web interactiva. Ver [QUIZGEN_WEB.md](QUIZGEN_WEB.md) para la documentación completa.
+
+```bash
+python -m streamlit run quizgen_web.py
+```
+
+![Configuración](docs/web_configurar.png)
+![Quiz](docs/web_quiz.png)
+![Mapa de preguntas](docs/web_mapa.png)
+![Resultados](docs/web_resultados.png)
+
 ## Cómo funciona
 
 QuizGen utiliza un pipeline **RAG (Retrieval-Augmented Generation)** para generar preguntas fundamentadas en el contenido real de tus apuntes. A continuación se explica cada etapa del proceso.
